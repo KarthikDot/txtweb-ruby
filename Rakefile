@@ -17,9 +17,9 @@ Jeweler::Tasks.new do |gem|
   gem.name = "txtweb-ruby"
   gem.homepage = "http://github.com/KarthikKastury/txtweb-ruby"
   gem.license = "MIT"
-  gem.summary = %Q{TODO: one-line summary of your gem}
-  gem.description = %Q{TODO: longer description of your gem}
-  gem.email = "coolkarthik88@gmail.com"
+  gem.summary = "Simple Ruby Wrapper for TxtWeb SMS API."
+  gem.description = "Ruby Gem that allows you to easily interact with the TxtWeb SMS API."
+  gem.email = "hello@karthik.kastury.in"
   gem.authors = ["Karthik Kastury"]
   # dependencies defined in Gemfile
 end
