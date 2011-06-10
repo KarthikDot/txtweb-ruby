@@ -26,7 +26,8 @@ Gem::Specification.new do |s|
     "VERSION",
     "lib/txtweb-ruby.rb",
     "test/helper.rb",
-    "test/test_txtweb-ruby.rb"
+    "test/test_txtweb-ruby.rb",
+    "txtweb-ruby.gemspec"
   ]
   s.homepage = %q{http://github.com/KarthikKastury/txtweb-ruby}
   s.licenses = [%q{MIT}]
