@@ -2,6 +2,7 @@ source "http://rubygems.org"
 # Add dependencies required to use your gem here.
 # Example:
   gem "httpclient", ">= 2.1.5.2"
+  gem "xml-simple"
 
 # Add dependencies to develop your gem here.
 # Include everything needed to run rake, tests, features, etc.
