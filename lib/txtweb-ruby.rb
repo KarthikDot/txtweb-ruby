@@ -36,15 +36,15 @@ module TxtWeb
       puts "TxtWeb Response: #{resp}"
       
       case res
-        when Net::HTTPSuccess
-          if status['code'] == 0
-            return true, nil
+      when Net::HTTPSuccess
+        if status['code'] == 0
+          return true, nil
           puts "API Call Failed : #{status['code']}"
           return false,nil   
         else
           return false, "HTTP Error : #{res}"
+        end
       end
-      
     end
 
     def send_message(opts)
